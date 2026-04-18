@@ -1,0 +1,96 @@
+/* Container for the plant timeline page */
+.timeline-container {
+  max-width: 1200px; /* Sets maximum width for the container */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 20px; /* Adds padding inside the container */
+}
+
+/* Header Styling */
+.timeline-container h1 {
+  text-align: center; /* Centers the heading text */
+  font-size: 2.5rem; /* Sets large font size for the heading */
+  color: #008036; /* Sets green color for the text */
+  margin-bottom: 30px; /* Adds space below the heading */
+}
+
+/* Plant Image Timeline section */
+.plant-timeline {
+  text-align: center; /* Centers the text inside the timeline */
+  margin-bottom: 40px; /* Adds space below the timeline */
+}
+
+/* Subheading inside the plant timeline section */
+.plant-timeline h2 {
+  margin-top: 70px; /* Adds space above the subheading */
+  font-size: 2rem; /* Sets large font size for the subheading */
+  color: #008036; /* Sets green color for the text */
+  margin-bottom: 20px; /* Adds space below the subheading */
+}
+
+/* Container for plant images in the timeline */
+.image-container {
+  display: flex; /* Enables flex layout */
+  justify-content: center; /* Centers images horizontally */
+  flex-wrap: wrap; /* Allows images to wrap onto new lines */
+  gap: 20px; /* Adds space between images */
+}
+
+/* Styling for individual plant images */
+.plant-image {
+  width: 100px; /* Sets fixed width for images */
+  height: 100px; /* Sets fixed height for images */
+  object-fit: cover; /* Ensures images maintain aspect ratio */
+  border-radius: 10px; /* Rounds the corners of images */
+  border: 2px solid #ccc; /* Adds a light gray border around images */
+}
+
+/* Chart section styling for sensor data */
+.chart-section {
+  margin-bottom: 40px; /* Adds space below the chart section */
+}
+
+/* Chart subheading styling */
+.chart-section h2 {
+  font-size: 1.5rem; /* Sets font size for chart subheading */
+  color: #333; /* Sets dark gray color for the text */
+  text-align: center; /* Centers the subheading */
+  margin-bottom: 15px; /* Adds space below the subheading */
+}
+
+/* Container for timeline PNG image */
+.timeline-png-container {
+  margin-top: 40px; /* Adds space above the container */
+  text-align: center; /* Centers the content inside */
+}
+
+/* Styling for the timeline PNG image */
+.timeline-png {
+  width: 100%; /* Sets full width */
+  max-width: 500px; /* Sets maximum width for large screens */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  /* Adjusts image container layout for small screens */
+  .image-container {
+    flex-direction: column; /* Stacks images vertically */
+    align-items: center; /* Centers images horizontally */
+  }
+
+  /* Adjusts plant image size for small screens */
+  .plant-image {
+    width: 80px; /* Sets smaller width */
+    height: 80px; /* Sets smaller height */
+  }
+
+  /* Adjusts chart subheading size for small screens */
+  .chart-section h2 {
+    font-size: 1.25rem; /* Sets smaller font size */
+  }
+
+  /* Adjusts timeline PNG for small screens */
+  .timeline-png {
+    max-width: 100%; /* Sets maximum width to full container */
+  }
+}

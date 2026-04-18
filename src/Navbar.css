@@ -1,0 +1,37 @@
+/* Navbar container styles */
+.navbar {
+  background-color: #008036; /* Sets a green background color */
+  padding: 1rem; /* Adds padding around the navbar for spacing */
+  position: fixed; /* Fixes the navbar at the top of the viewport */
+  width: 100%; /* Sets the width to fill the entire viewport */
+  top: 0; /* Positions the navbar at the top of the viewport */
+  z-index: 1000; /* Ensures the navbar appears above other elements */
+}
+
+/* Styles for the unordered list inside the navbar */
+.navbar ul {
+  list-style: none; /* Removes default list styling (e.g., bullets) */
+  display: flex; /* Enables horizontal flex layout */
+  justify-content: center; /* Centers the navigation links horizontally */
+  align-items: center; /* Aligns the items vertically in the center */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+/* Styles for individual list items in the navbar */
+.navbar ul li {
+  margin: 0 1.5rem; /* Adds horizontal space between list items */
+}
+
+/* Styles for the anchor links inside list items */
+.navbar ul li a {
+  color: white; /* Sets the text color to white */
+  text-decoration: none; /* Removes underline from links */
+  font-size: 1.2rem; /* Sets a larger font size for readability */
+  transition: color 0.3s; /* Adds a smooth color transition effect on hover */
+}
+
+/* Hover effect for the anchor links */
+.navbar ul li a:hover {
+  color: #d0d0d0; /* Changes the text color to a lighter gray on hover */
+}

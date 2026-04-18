@@ -1,0 +1,133 @@
+/* Main container for the dashboard, using flexbox for layout */
+.dashboard-container {
+  display: flex; /* Enables horizontal flex layout */
+}
+
+/* Styles for the left panel of the dashboard */
+.left-panel {
+  flex: 2; /* Takes up more space relative to the right panel */
+  display: flex; /* Enables flex layout */
+  flex-direction: column; /* Aligns children vertically */
+  gap: 20px; /* Adds space between child elements */
+  align-items: flex-start; /* Aligns items to the start of the flex container */
+}
+
+/* Header styling in the left panel */
+.left-panel h3 {
+  color: #008036; /* Sets green color */
+  text-align: center; /* Centers text horizontally */
+}
+
+.left-panel h4 {
+  color: #008036; /* Sets green color */
+  font-weight: bold; /* Makes text bold */
+}
+
+/* Styles for individual data cards in the left panel */
+.data-card {
+  border: 1px solid #ccc; /* Adds a light gray border */
+  padding: 10px; /* Adds padding inside the card */
+  border-radius: 15px; /* Rounds the corners of the card */
+  margin-top: 40px; /* Adds space above the card */
+  width: 80%; /* Sets card width to 80% of the parent */
+  font-weight: bold; /* Makes text bold */
+}
+
+/* Container for the data content, with two sections */
+.data-content {
+  display: flex; /* Enables flex layout */
+  justify-content: space-between; /* Distributes space between the two sections */
+}
+
+/* Styles for sensor data section inside the data card */
+.sensor-data {
+  background-color: #ffffff; /* Sets white background */
+  padding: 10px; /* Adds padding inside the section */
+  width: 45%; /* Sets width to 45% of the parent */
+}
+
+/* Styles for recommended data section inside the data card */
+.recommended-data {
+  background-color: #ffecb3; /* Sets light yellow background */
+  padding: 10px; /* Adds padding inside the section */
+  width: 45%; /* Sets width to 45% of the parent */
+}
+
+/* Styles for the flower image */
+.flower-image {
+  margin-top: 20px; /* Adds space above the image */
+  margin-left: 20px; /* Adds space to the left of the image */
+  width: 20%; /* Sets image width to 20% of the parent */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Styles for the sun image */
+.sun-image {
+  margin-top: 20px; /* Adds space above the image */
+  margin-left: 20px; /* Adds space to the left of the image */
+  width: 40%; /* Sets image width to 40% of the parent */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Styles for the right panel of the dashboard */
+.right-panel {
+  margin-top: 40px; /* Adds space above the panel */
+  flex: 1; /* Takes up less space relative to the left panel */
+  padding-left: 20px; /* Adds padding on the left side */
+  display: flex; /* Enables flex layout */
+  flex-direction: column; /* Aligns children vertically */
+  align-items: center; /* Centers children horizontally */
+  color: #008036; /* Sets green color for text */
+  font-weight: bold; /* Makes text bold */
+}
+
+/* Styles for the paragraph inside the right panel */
+.right-panel p {
+  color: red; /* Sets red color for the text */
+  font-weight: bold; /* Makes text bold */
+}
+
+/* Styles for the button container */
+.button-container {
+  display: flex; /* Enables flex layout */
+  justify-content: space-between; /* Distributes space evenly between buttons */
+  gap: 10px; /* Adds space between buttons */
+  margin-top: 10px; /* Adds space above the buttons */
+  width: 100%; /* Sets width to 100% of the parent */
+}
+
+/* Styles for buttons inside the right panel */
+.right-panel button {
+  background-color: #008036; /* Sets green background color */
+  color: white; /* Sets text color to white */
+  font-weight: bold; /* Makes text bold */
+  padding: 0.5rem 1rem; /* Adds padding inside the button */
+  font-size: 0.7rem; /* Sets font size */
+  border: none; /* Removes border */
+  border-radius: 5px; /* Rounds the corners of the button */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  width: 150px; /* Sets button width */
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #1F6B15; /* Changes background color on hover */
+}
+
+/* Styles for the checkbox container */
+.checkbox-container {
+  display: flex; /* Enables flex layout */
+  justify-content: flex-start; /* Aligns children to the start */
+  width: 100%; /* Sets width to 100% of the parent */
+  padding-left: 10px; /* Adds padding on the left side */
+  margin-top: 10px; /* Adds space above the container */
+  font-weight: bold; /* Makes text bold */
+}
+
+/* Styles for the label inside the checkbox container */
+.checkbox-container label {
+  display: flex; /* Enables flex layout */
+  align-items: center; /* Centers items vertically */
+  font-size: 0.9rem; /* Sets font size */
+  color: #333; /* Sets dark gray color for text */
+}
