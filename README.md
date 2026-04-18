@@ -33,10 +33,10 @@ As the primary developer for the frontend and system integration, my work focuse
 1. Clone the repository:
    ```bash
    git clone [https://github.com/Rebecca115/IoT-Smart-Plant-Health-Monitoring-System.git)
-2.Install dependencies:
-  npm install
-3.Run the application:
-  npm start
+2. Install dependencies:
+   npm install
+3. Run the application:
+   npm start
 
 ### 👥 Acknowledgments
 This system was developed as a collaborative group project for CITS5506 - The Internet of Things.
