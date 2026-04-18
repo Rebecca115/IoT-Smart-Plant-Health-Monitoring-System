@@ -1,73 +1,50 @@
-# IOT-Smart-Plant-Health-Monitoring-System
-CITS5506 - The Internet of Things Project
+# IoT Smart Plant Health Monitoring System 🌿
 
-# Getting Started with Create React App
+An AI-powered IoT ecosystem designed for real-time plant monitoring, automated care, and intelligent health insights. This project bridges the gap between physical hardware and cloud-based data intelligence, providing a seamless bridge between nature and technology.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 🛠 My Role & Contributions
+**Full-stack Developer & UI/UX Designer**
 
-In the project directory, you can run:
+As the primary developer for the frontend and system integration, my work focused on transforming raw sensor data into a user-centric digital experience:
 
-### `npm start`
+* **UI/UX Design:** Concepted and designed the complete visual identity, focusing on high-contrast data visualization and intuitive dashboard layouts.
+* **Frontend Development:** Built the responsive React dashboard, implementing complex data charts and real-time state management.
+* **AI Integration:** Developed and integrated the OpenAI-powered plant care assistant to provide intelligent diagnostic feedback.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Key Features
+* **Real-time Monitoring:** Instant tracking of soil moisture, temperature, and humidity.
+* **Interactive Dashboard:** Sophisticated visualization tools for long-term health trends.
+* **AI Care Assistant:** Personalized care suggestions and automated plant diagnosis via OpenAI API.
+* **Remote Control:** Full management of IoT hardware across edge-to-cloud networks.
+* **Cloud-Native Storage:** Automated data logging and secure storage utilizing AWS infrastructure.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💻 Tech Stack
+* **Frontend:** React, Framer Motion, Recharts
+* **Backend:** Node.js
+* **Cloud:** AWS (S3, DynamoDB), Vercel
+* **IoT/Hardware:** Raspberry Pi, Soil/Temp/Humidity Sensors
+* **AI:** OpenAI API
 
-### `npm test`
+## 📦 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Rebecca115/IoT-Smart-Plant-Health-Monitoring-System.git)
+2.Install dependencies:
+  npm install
+3.Run the application:
+  npm start
 
-### `npm run build`
+### 👥 Acknowledgments
+This system was developed as a collaborative group project for CITS5506 - The Internet of Things.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Special thanks to the project team for their collaboration on hardware configuration and research. This repository is maintained specifically to showcase my individual contributions to the system's design and technical implementation.
+  
+  
+  
+   
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
