@@ -34,8 +34,10 @@ As the primary developer for the frontend and system integration, my work focuse
    ```bash
    git clone [https://github.com/Rebecca115/IoT-Smart-Plant-Health-Monitoring-System.git)
 2. Install dependencies:
+   ```bash
    npm install
-3. Run the application:
+4. Run the application:
+   ```bash
    npm start
 
 ### 👥 Acknowledgments
